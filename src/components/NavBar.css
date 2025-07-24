@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+/*.logo-button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.logo-button:hover {
+  background-color: #a23030;
+}*/
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-links a {
+  text-decoration: none;
+  color: brown;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  margin: 0 20px; 
+}
+
+.nav-links a:hover {
+  color: #a23030;
+}
+
+.lienLogoButton {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.lienLogo {
+  width: 80px;  
+  height: auto;
+}

@@ -1,0 +1,97 @@
+.about-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding:  10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b3a2f; 
+  background-color: #fff8f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(75, 58, 47, 0.15);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #6b4c3b;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #c99b6b;
+  padding-bottom: 4px;
+  color: #7a5a38;
+}
+
+ul {
+  list-style: inside disc;
+  padding-left: 0;
+  color: #5e4a39;
+}
+
+.testimonials blockquote {
+  background-color: #f5e9d4;
+  border-left: 6px solid #c99b6b;
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+  color: #5a4635;
+  border-radius: 4px;
+}
+
+.contact-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #6a4f3a;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #c99b6b;
+  color: white;
+  text-decoration: none;
+  padding: 0.65rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(201, 155, 107, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #b07e43;
+}
+
+
+.btn-instagram {
+  background-color: #e1306c;
+  box-shadow: 0 3px 6px rgba(225, 48, 108, 0.5);
+}
+
+.btn-instagram:hover {
+  background-color: #b72155;
+}
+
+ @media (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}

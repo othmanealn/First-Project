@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f6f1;
+  color: #3e2c1c;
+
+}
+.home {
+  text-align: center;
+}
+
+.hero-banner {
+  background-image: url('/public/background1.png');
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  padding: 6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #8c5e3c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #6e4528;
+}
+.intro-card {
+  background: #fffaf5;
+  border: 1px solid #e6d9c4;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.intro-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4b2e17;
+}
+
+.intro-card p {
+  font-size: 1.1rem;
+  color: #4b3e2f;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-button {
+  background-color: #8B4513;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #A0522D;
+}
+
+.cta-link {
+  color: #8B4513;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.05rem;
+  align-self: center;
+}
+
+.cta-link:hover {
+  color: #A0522D;
+}

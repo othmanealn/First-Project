@@ -1,0 +1,38 @@
+.gallery{
+  background-color: #fefaf5;
+  padding: 60px 30px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+.gallery-title {
+  font-size: 3rem;
+  color: #5c3b1a;
+  margin-bottom: 10px;
+}
+
+.gallery-description {
+  color: #7a4e2b;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
