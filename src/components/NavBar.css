@@ -16,20 +16,6 @@
   z-index: 1000;
 }
 
-
-/*.logo-button {
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  background-color: red;
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-.logo-button:hover {
-  background-color: #a23030;
-}*/
 .nav-links {
   list-style: none;
   display: flex;
